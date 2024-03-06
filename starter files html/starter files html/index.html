@@ -2,18 +2,16 @@
 
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        a, p, h1, h2, h3, ul, ol{
-            font-family: "Arial", sans-serif;
-        }
-
-    </style>
     <title>The Basic Language of the Web: HTML</title>
 </head>
+
 <body>
-    <header>
+    <div class = "container">
+    <header class="main-header"> 
+
     <h1>📘 The Code Magazine</h1>
 
     <nav>
@@ -22,10 +20,11 @@
         <a href="">Flexbox</a>
         <a href="">CSS Grid</a>
     </nav>
+
     </header>
     
     <article>
-        <header>
+        <header class = "post-header">
         <h2>The Basic Language of the Web: HTML</h2>
         
         <img src="./laura-jones.jpg" width="50" height="50" alt="Laura Jones Icon">
@@ -68,7 +67,17 @@
 
         <p>Hopefully you learned something new here. See you next time!</p>
     </article>
-
+    <h3>Related posts</h3>
+    <ul>
+        <li> <img src="./work-731198_1280.jpg" width="100" height="100" alt=""> <a href="">How to Learn Web Development</a></li>  
+        <p>By Jonas Schmedtmann</p>
+        <li> <img src="" width="100" height="100" alt=""> <a href="">The Unknow Powers of CSS</a> </li>
+        <p>By Jim Dillon</p>
+        <li> <img src="./image.jpg" width="100" height="100" alt=""> <a href="">Why JavaScript is Awesome</a> </li>
+        <p>By Matilda</p>
+    </ul>
+    
     <footer>Copyright &copy; 2027 by the Code Magazine</footer>
+</div>
 </body>
 </html>
